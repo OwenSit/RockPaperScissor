@@ -38,6 +38,14 @@ header > h1 {
 	font-family: Asap, sans-serif;
 }
 
+.result > p {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-family: Asap, sans-serif;
+}
+
 #user-label {
 	position: absolute;
 	top: 30px;
@@ -48,16 +56,6 @@ header > h1 {
 	position: absolute;
 	top: 30px;
 	right: -37px;
-}
-
-#user-score {
-	color: red;
-}
-
-.result > p {
-	text-align: center;
-	font-weight: bold;
-	font-family: Asap, sans-serif;
 }
 
 .choices {
@@ -82,4 +80,12 @@ header > h1 {
 
 .choices > p {
 	text-align: center;
+}
+
+#action-message {
+	text-align: center;
+	color: white;
+	font-family: Asap, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
 }
