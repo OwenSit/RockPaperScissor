@@ -35,6 +35,10 @@ function win(user, computer) {
 		" BEATs Computer: " +
 		convert(computer) +
 		". You win! :)";
+	document.getElementById(user).classList.add("green-glow");
+	setTimeout(function () {
+		document.getElementById(user).classList.remove("green-glow");
+	}, 1000);
 }
 
 function lose(user, computer) {
@@ -47,6 +51,10 @@ function lose(user, computer) {
 		" BEATs User: " +
 		convert(user) +
 		". You lose! :(";
+	document.getElementById(user).classList.add("red-glow");
+	setTimeout(function () {
+		document.getElementById(user).classList.remove("red-glow");
+	}, 1000);
 }
 
 function draw(user, computer) {
@@ -58,6 +66,10 @@ function draw(user, computer) {
 		" and Computer: " +
 		convert(computer) +
 		". It's a draw! ;)";
+	document.getElementById(user).classList.add("gray-glow");
+	setTimeout(function () {
+		document.getElementById(user).classList.remove("gray-glow");
+	}, 1000);
 }
 
 function game(userChoice) {
